@@ -297,7 +297,7 @@ namespace RVB_m {
             }
         }
 
-        dpp::embed emoteInvitation = dpp::embed().
+        dpp::embed embedInvitation = dpp::embed().
             set_color(0xFFFF00).
             set_title("Heroes Vs. Villains!!!").
             set_url("").
@@ -306,7 +306,7 @@ namespace RVB_m {
             set_footer(dpp::embed_footer().set_text("Choose a side: ")).
             set_timestamp(time(NULL));
 
-        dpp::message messageInvitation(invitationChannel.id, emoteInvitation);
+        dpp::message messageInvitation(invitationChannel.id, embedInvitation);
             messageInvitation.add_component(dpp::component()
                 .add_component(
                     dpp::component().set_label("hero")
