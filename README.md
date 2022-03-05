@@ -1,4 +1,6 @@
 
+- Comments Comments Comments!!!!!!!!
+
 - My environmental global variables are in a .h instead of a file, but I've designed it so that it should be relatively easy to implement into a file.
 
 - I need to refine the embed to be designed better, a better picture source and the text displays on the embed, I just wanted an embed to show.
