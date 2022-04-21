@@ -1,4 +1,7 @@
-A test of GIT updates
+I swear I will figure this out...
+
+
+
 - Comments Comments Comments!!!!!!!!
 
 - My environmental global variables are in a .h instead of a file, but I've designed it so that it should be relatively easy to implement into a file.
