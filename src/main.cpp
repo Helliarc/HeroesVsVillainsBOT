@@ -4,11 +4,11 @@
 #include <dpp/dpp.h>
 #include <iostream>
 
-#include "../../envars.h"
+#include "../envars.h"
 
 int main()
 {
-    dpp::cluster bot(ROLESTOKEN);
+    dpp::cluster bot(TOKEN);
 
     bot.on_interaction_create([&bot](const dpp::interaction_create_t& event) {
         if (event.command.type == dpp::it_application_command) {
@@ -64,7 +64,7 @@ int main()
         auto GID = guild.id;
         auto channel = *event.created;
 
-        if (channel.flags == dpp::c_category) {
+        if (channel.flags == dpp::CHANNEL_CATEGORY) {
             RVB_m::categoryCreate(bot, GID);
         }
     });

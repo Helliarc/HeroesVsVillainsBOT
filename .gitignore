@@ -1,0 +1,3 @@
+#do not put the build folder on GIT
+build
+
