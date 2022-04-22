@@ -1,3 +1,6 @@
+#IMMEDIATE FIXES NEEDED
+Format Readme
+
 #Status of Project
 -------------------------------------------------------
 1. Working through DB Schema to:
