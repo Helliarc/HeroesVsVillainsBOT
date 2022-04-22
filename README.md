@@ -1,9 +1,13 @@
 #Status of Project
 -------------------------------------------------------
 1. Working through DB Schema to:
+
   A. Track BOT user stats (Health, Alignment, Time-as(Alignment), Options(receive PMs, Pings, Notifications))
+  
   B. Track Guild stats (Guild alignment weight(Finding Faction-only guilds), # of Guilds with BOT active, Average AGE of Guilds(What's the reach depth))
+  
   C. Track Alignment stats (Health, Member count, Options, Buffs/Debuffs)
+  
   
 2. Design planning BOT to interact with DB by:
   A. Maintaining User Roles (Users will retain roles when moving to another server, prevents signing up for both factions under the same log-in)
